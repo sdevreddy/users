@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7cbef4a-0db0-4326-b9f8-1123bc031d80" name="Default Changelist" comment="" />
+    <list default="true" id="b7cbef4a-0db0-4326-b9f8-1123bc031d80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Admin_sdk/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chalo/chalo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring/BUS_Route/src/main/java/com/example/bus_route/controller/Bus_Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin_sdk/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin_sdk/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin_sdk/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin_sdk/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin_sdk/src/main/java/demo/AdminSDKDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin_sdk/src/main/java/demo/AdminSDKDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Admin_sdk/target/classes/demo/AdminSDKDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Admin_sdk/target/classes/demo/AdminSDKDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/demo/src/main/java/com/ex/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/demo/src/main/java/com/ex/demo/DemoApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +27,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -26,6 +39,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1ui1O7lJHmEIUsTieJZlwAbWwM2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -74,6 +89,7 @@
       <workItem from="1626077130465" duration="10953000" />
       <workItem from="1626677292395" duration="597000" />
       <workItem from="1626867595944" duration="616000" />
+      <workItem from="1627547854855" duration="624000" />
     </task>
     <servers />
   </component>

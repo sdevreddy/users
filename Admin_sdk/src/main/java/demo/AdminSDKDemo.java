@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 public class AdminSDKDemo {
 
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
 
         System.out.println("getResponse");
         FileInputStream serviceAccount =
@@ -33,13 +33,13 @@ public class AdminSDKDemo {
 
         FirebaseApp.initializeApp(options);
 
-
+        CountDownLatch sample1 = new CountDownLatch(1);
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference  ref = database.getReference();
         DatabaseReference usersRef = ref.child("users");
-        ApiFuture<Void> sample = usersRef.child("asdf").setValueAsync(new User("Nov 9, 1200", "dcsdf Hopper"));
-        CountDownLatch sample1 = new CountDownLatch(1);
-        try {
+        ApiFuture<Void> sample = usersRef.child("asdf4").setValueAsync(new User("Nov 9, 1200", "dcsdf Hopper"));
+
+        /*try {
             if (sample.get() != null) {
                 sample1.countDown();
             }
@@ -48,7 +48,9 @@ public class AdminSDKDemo {
         }
         catch (Exception e){
             System.out.println("error");
-        }
+        }*/
+        sample1.countDown();
+        sample1.await() ;
 
     }
 }
