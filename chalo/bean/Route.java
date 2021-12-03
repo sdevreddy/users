@@ -1,4 +1,4 @@
-package com.chalo.bean;
+package bean;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

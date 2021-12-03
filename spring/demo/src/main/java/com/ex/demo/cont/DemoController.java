@@ -1,15 +1,12 @@
 package com.ex.demo.cont;
 
 
-import com.ex.demo.model.Employee;
-import com.ex.demo.service.FirebaseInitializer;
 import com.google.api.core.ApiFuture;
 import com.google.cloud.firestore.CollectionReference;
 import com.google.cloud.firestore.DocumentSnapshot;
 import com.google.cloud.firestore.QuerySnapshot;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.w3c.dom.Document;
 
 import java.util.ArrayList;
 import java.util.List;

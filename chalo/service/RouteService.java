@@ -1,9 +1,9 @@
-package com.chalo.service;
+package service;
 
 import java.util.List;
 import java.util.Map;
 
-import com.chalo.bean.Route;
+import bean.Route;
 import org.springframework.stereotype.Repository;
 
 @Repository()
